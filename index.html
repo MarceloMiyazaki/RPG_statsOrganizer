@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG ORGANIZER</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="stats" style="display: flex;">
+        <div class="vida">
+        <textarea id="vida" placeholder="vida"></textarea>
+        </div>
+
+        <div class="mana">
+            <textarea id="mana" placeholder="mana"></textarea>
+        </div>
+    </div>
+
+    <div class="modificador">
+        <div class="radio">
+            <div>
+                <input type="radio" name="oi" id="vid">
+                <label for="vid">vida</label>
+            </div>
+            <div>
+                <input type="radio" name="oi" id="man">
+                <label for="man">mana</label>
+            </div>
+        </div>
+
+        <div class="uai">
+            <button onclick="plus()">+</button>
+            <button onclick="sub()">-</button>
+            <textarea id="modValue" placeholder="valor"></textarea>
+        </div>
+    </div>
+
+    <div class="dados">
+        <div class="lin1">
+            <button onclick="d4()">D4</button>
+            <button onclick="d6()">D6</button>
+            <button onclick="d8()">D8</button>
+        </div>
+        <div class="lin2">
+            <button onclick="d10()">D10</button>
+            <button onclick="d12()">D12</button>
+            <button onclick="d20()">D20</button>
+        </div>
+    </div>
+
+    <div class="resultado">
+        <p>dado: resultado</p>
+        <p id="resultado">d4: 4</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(59, 53, 59);
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 5vw 3vh 5vw;
+}
+
+#vida{
+    background-color: rgb(255, 177, 177);
+    text-align: center;
+    font-size: 4vh;
+    border: none;
+    resize: none;
+    padding-top: 4vh;
+    width: 40vw;
+    border-radius: 1vh;
+}
+
+#mana{
+    background-color: rgb(159, 206, 212);
+    text-align: center;
+    font-size: 4vh;
+    border: none;
+    resize: none;
+    padding-top: 4vh;
+    width: 40vw;
+    border-radius: 1vh;
+}
+
+input[type="radio"]{
+    -webkit-appearance: none; /* For Webkit browsers */
+    -moz-appearance: none; /* For Mozilla browsers */
+    appearance: none;
+    width: 3vh;
+    height: 3vh;
+    background-color: rgb(107, 95, 107);
+    border: solid black 3px;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-color: black;;
+  border: solid black 3px;
+}
+
+.modificador{
+    background-color: rgb(107, 95, 107);
+    padding: 3vh 4vw 3vh 4vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1vh;
+}
+
+.radio{
+    display: flex;
+    gap: 33vw;
+    margin-bottom: 2vh;
+}
+
+label{
+    font-size: 3vh;
+    padding: 0px 0px 0px 2vw;
+    font-family: Arial, sans-serif;
+}
+
+.modificador button{
+    width: 13vw;
+    height: 6vh;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.modificador textarea{
+    width: 70vw;
+    height: 4.5vh;
+    resize: none;
+    text-align: center;
+    font-size: 3vh;
+    padding-top: 1vh;
+}
+
+.uai{
+    display: flex;
+    gap: 1vw;
+}
+
+.dados button{
+    width: 17vw;
+    height: 17vw;
+    border-radius: 1vh;
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: rgb(107, 95, 107);
+    border: 0px;
+}
+
+.dados button:hover{
+    width: 17vw;
+    height: 17vw;
+    border-radius: 1vh;
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: rgba(107, 95, 107, 0.5);
+    border: 0px;
+}
+
+.lin1{
+    display: flex;
+    justify-content: center;
+    gap: 9vw;
+    margin-top: 3vh;
+}
+
+.lin2{
+    display: flex;
+    justify-content: center;
+    gap: 9vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.resultado{
+    background-color: rgb(107, 95, 107);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 1vh;
+}
+
+p{
+    font-size: 3vh;
+    font-family: arial, sans-serif;
+    padding-top: 1vh;
+    padding-left: 4vw;
+}
+
+#resultado{
+    font-size: 9vw;
+    padding-bottom: 6vh;
+    text-align: center;
+    padding-top: 0px;
+}
